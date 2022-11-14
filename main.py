@@ -9,7 +9,7 @@ app = FastAPI()
 
 timeConstraint = True
 
-JSON_MAIN = "message"
+JSON_MAIN = "out"
 
 MESSAGE_PATH = "messages/"
 
@@ -54,7 +54,7 @@ async def send_message_to_usr(usr : ProfileName, msg : str, sender : StrNone = N
 @app.get("/retrieveMessages/{usr}")
 async def retrieve_messages(usr : ProfileName, requester : StrNone = None):
     if usr not in os.listdir(MESSAGE_PATH):
-        return {"message": NO_MESSAGE_FOUND}
+        return {JSON_MAIN: NO_MESSAGE_FOUND}
     inFile = open(MESSAGE_PATH + usr, "r+")
     inFile = inFile.readlines()
     msg = "DEFAULT MESSAGE NOT OVERRIDEN"

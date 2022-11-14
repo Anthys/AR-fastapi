@@ -70,7 +70,7 @@ def test_get_message3_no_access():
     response = client.get("/retrieveMessages/blue?requester=blue")
     assert response.status_code == 200
     assert response.json()[JSON_MAIN] == NO_MESSAGE_FOUND
-    
+
 def test_get_message3_has_access():
     response = client.get("/retrieveMessages/blue?requester=red")
     assert response.status_code == 200
