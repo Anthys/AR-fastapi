@@ -1,8 +1,6 @@
-from urllib import response
 from fastapi.testclient import TestClient
-import json
 
-from main import app, NO_MESSAGE_FOUND,JSON_MAIN
+from main import JSON_MAIN, NO_MESSAGE_FOUND, app
 
 JSON_MESSAGE_STRING = "messageString"
 
