@@ -3,11 +3,11 @@ Date, Id, Method, Action, Failure/Success, Duration, Reasons of failure, Notes
 // ex: 01/01/2000, MarcD, A2, RETRIEVE, 3.15, No, NA, NA 
 // Study with 6 people from the class
 16/12/2022, P1, A1, ANY, S, 7.5, AirDrop - other recipient known
-16/12/2022, P2, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P2, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P2, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P2, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P2, A3, ANY, F, 0, Mismatched gesture
+16/12/2022, P2, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P2, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P2, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P2, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P2, A3, ANY, F, 0, mismatched gesture
 16/12/2022, P1, A3, ANY, S, 2.5
 16/12/2022, P1, A3, ANY, S, 2.2
 16/12/2022, P1, A3, ANY, S, 2.1
@@ -20,21 +20,21 @@ Date, Id, Method, Action, Failure/Success, Duration, Reasons of failure, Notes
 16/12/2022, P3, A3, ANY, S, 2.4
 16/12/2022, P3, A1, ANY, S, 7.2, Bluetooth - knowing the other recipient
 16/12/2022, P3, A1, ANY, S, 7.0, Bluetooth - knowing the other recipient
-16/12/2022, P4, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P4, A3, ANY, F, 0, Mismatched gesture
+16/12/2022, P4, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P4, A3, ANY, F, 0, mismatched gesture
 16/12/2022, P4, A3, ANY, S, 3.3
 16/12/2022, P4, A3, ANY, S, 2.8
 16/12/2022, P6, A3, ANY, S, 3.1
-16/12/2022, P5, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P5, A3, ANY, F, 0, Mismatched gesture
-16/12/2022, P5, A3, ANY, F, 0, Mismatched gesture
+16/12/2022, P5, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P5, A3, ANY, F, 0, mismatched gesture
+16/12/2022, P5, A3, ANY, F, 0, mismatched gesture
 16/12/2022, P6, A1, ANY, S, 12, Bluetooth - removed the time for asking the device name and understanding how it works (50 s else)
 16/12/2022, P4, A1, ANY, S, 15, Bluetooth - with asking the device name
 16/12/2022, P4, A1, ANY, S, 13, Bluetooth - with asking the device name
 //Julien - 3 from family
 16/12/2022, P7, A1, ANY, S, 16, Bluetooth - with asking the device name
 16/12/2022, P7, A1, ANY, S, 13, Bluetooth - knowing the other recipient
-23/12/2022, P7, A3, ANY, F, 0
+23/12/2022, P7, A3, ANY, F, 0, mismatched gesture
 23/12/2022, P7, A3, ANY, S, 3.4
 23/12/2022, P7, A3, ANY, S, 2.4
 23/12/2022, P7, A3, ANY, S, 2.8
