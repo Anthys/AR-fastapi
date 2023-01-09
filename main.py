@@ -111,7 +111,7 @@ def is_suitable(index, inFile, requester):
     msg = json.loads(msg)
     now = datetime.now()
     msgTime = datetime.strptime(msg["time"], '%Y-%m-%d %H:%M:%S.%f')
-    delta = timedelta(seconds=8)
+    delta = timedelta(seconds=20)
     if (timeConstraint and now-delta>msgTime):
         # B: LINE IS OUTDATED, IT IS REMOVED
         return index, inFile[:index] + inFile[index+1:], False, False
