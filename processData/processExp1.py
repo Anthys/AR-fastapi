@@ -42,4 +42,4 @@ if n_process == 0:
         gestures.append(y)
     plt.pie(gestures, labels=labels, autopct='%1.0f%%')
     plt.title("Proposed gestures for a file transfer between two devices")
-    plt.show()
+    plt.savefig("exp1.png")
